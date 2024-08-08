@@ -1,0 +1,18 @@
+#gitignire for pyhton IA project
+# Ignore the virtual environment
+venv/
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
+dist/
+build/
+*.egg-info/
+.env/
+*.log
+test-reports/
+.coverage
+.prof
+.profraw
+.profdata
+data/
+.idea/
