@@ -14,5 +14,8 @@ test-reports/
 .prof
 .profraw
 .profdata
-data/
+data/raw/
+data/processed/
+data/final/
+
 .idea/
