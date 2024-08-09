@@ -190,9 +190,9 @@ class PaletaPlotly(telefonica_style):
         super().__init__()
 
         fig = read_plotly_conf()
-        telefonica_template = pio.to_templated(fig)
-        pio.templates['telefonica_template'] = telefonica_template.layout.template
-        pio.templates.default = 'telefonica_template'
+        template_figures = pio.to_templated(fig)
+        pio.templates['template_figures'] = template_figures.layout.template
+        pio.templates.default = 'template_figures'
 
 
 def hex_to_rgb(hex_color):
