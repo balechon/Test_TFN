@@ -13,6 +13,7 @@ NOTEBOOKS_DIR = ROOT_DIR / "notebooks"
 SRC_DIR = ROOT_DIR / "src"
 CONFIGS_DIR = ROOT_DIR / "configs"
 
+MODELS_DIR = ROOT_DIR/ "models"
 
 RESULTS_DIR = ROOT_DIR / "results"
 FIGURES_DIR = RESULTS_DIR / "figures"

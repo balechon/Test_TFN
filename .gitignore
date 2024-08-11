@@ -18,3 +18,5 @@ test-reports/
 *.csv
 *.svg
 *.env
+logs/
+*.log
